@@ -14,7 +14,7 @@ PSecurity (NodeJS)
     npm install -D git-commit-msg-linter
 
 03: add typescript
-    npm install -D typescript @types/node         
+    npm install -D typescript @types/node ts-node  
 
 04: add ESLint
     npm install --save-dev eslint@7 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@4 eslint-config-standard-with-typescript
@@ -23,5 +23,7 @@ PSecurity (NodeJS)
     npm i -D husky
     npm i -D lint-staged
 
-06: 
-    
+06: add jest
+    npm i -D jest @types/jest ts-jest
+    ./node_modules/.bin/jest --init
+

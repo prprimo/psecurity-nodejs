@@ -4,7 +4,8 @@
   "description": "PSecurity (NodeJS)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:staged": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/prprimo/psecurity-nodejs#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "@types/node": "^15.12.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "eslint": "^7.27.0",
@@ -30,7 +32,10 @@
     "eslint-plugin-promise": "^4.3.1",
     "git-commit-msg-linter": "^3.1.0",
     "husky": "^6.0.0",
+    "jest": "^27.0.4",
     "lint-staged": "^11.0.0",
+    "ts-jest": "^27.0.2",
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   }
 }
