@@ -1,0 +1,23 @@
+{
+  "name": "psecurity-nodejs",
+  "version": "1.0.0",
+  "description": "PSecurity (NodeJS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prprimo/psecurity-nodejs.git"
+  },
+  "keywords": [
+    "PSecurity",
+    "NodeJS"
+  ],
+  "author": "Primozalho Dias Silva Filho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prprimo/psecurity-nodejs/issues"
+  },
+  "homepage": "https://github.com/prprimo/psecurity-nodejs#readme"
+}
