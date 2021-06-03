@@ -4,6 +4,6 @@
         "esModuleInterop": true,
         "module": "commonjs",
         "outDir": "./dist",
-        "target": "es2021"
+        "target": "es2020",
     }
 }
